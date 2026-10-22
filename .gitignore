@@ -1,0 +1,30 @@
+# --- Segredos: o ficheiro .env tem credenciais reais ---
+.env
+
+# --- Base de dados local (cada pessoa gera a sua) ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Ficheiros temporários do Python ---
+__pycache__/
+*.py[cod]
+
+# --- Ambientes virtuais ---
+venv/
+.venv/
+env/
+
+# --- Cache de testes ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Ficheiros de editores e sistema operativo ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Registo de erros da aplicação ---
+*.log

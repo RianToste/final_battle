@@ -1,0 +1,13 @@
+# ============================================================
+# requirements.txt
+# Dependências externas do projeto.
+# Instalar com:  pip install -r requirements.txt
+# ============================================================
+
+# Framework de testes. (Os testes também correm sem isto, com:
+#   python -m unittest discover -s tests -t .  )
+pytest>=8.0
+
+# Nota: o resto do projeto usa apenas a biblioteca padrão do Python
+# (sqlite3, hashlib, os, datetime, random...), por isso não há mais
+# dependências. Isto torna a instalação simples.
